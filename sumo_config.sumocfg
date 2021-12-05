@@ -8,12 +8,22 @@
         <gui-settings-file value="gui.xml"/>
     </input>
 
+    <output>
+        <collision-output value="testing_main.py"/>
+    </output>
+
     <time>
       <begin value="0"/>
     </time>
 
     <processing>
         <time-to-teleport value="-1"/>
+        <collision.check-junctions value="true"/>    
+        <collision.action value="warn"/>
+
+
     </processing>
+
+    <vType jmIgnoreFoeProb="1" jmIgnoreJunctionFoeProb="1" maxSpeedLat = "0"/>
 
 </configuration>
